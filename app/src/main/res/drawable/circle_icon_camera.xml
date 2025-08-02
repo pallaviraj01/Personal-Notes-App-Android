@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Yellow Circle Background -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#6486A5"/> <!-- Ensure yellow is defined in your colors.xml -->
+            <size
+                android:width="56dp"
+                android:height="56dp"/>
+        </shape>
+    </item>
+    <!-- Camera Icon centered within the circle -->
+    <item android:drawable="@drawable/ic_camera"
+        android:gravity="center"
+        android:width="27dp"
+        android:height="27dp"/>
+</layer-list>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    -->
+<!--    <solid android:color="#9F5D5D"/> &lt;!&ndash; Define the color here, make sure you have yellow defined in your colors.xml &ndash;&gt;-->
+<!--    <corners android:radius="250dp" /> &lt;!&ndash; High value to ensure circular shape &ndash;&gt;-->
+<!--</shape>-->
+

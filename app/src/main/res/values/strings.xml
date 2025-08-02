@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Personal Notes</string>
+    <string name="write_your_note_here">Write your note here</string>
+    <string name="save_note">Save Note</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="note_content">Note Content</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="view">View</string>
+    <string name="add">add</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="add_note" />
+    <string name="my_personal_notes">My Personal Notes</string>
+    <string name="reminders">Reminders</string>
+    <string name="notes">Notes</string>
+    <string name="labels">Labels</string>
+    <string name="inspiration">Inspiration</string>
+    <string name="personal">Personal</string>
+    <string name="work">Work</string>
+    <string name="archive">Archive</string>
+    <string name="trash">Trash</string>
+    <string name="settings">Settings</string>
+    <string name="user_name">User Name</string>
+    <string name="user_example_com">Happy note taking</string>
+    <string name="openDrawer">Open navigation drawer</string>
+    <string name="closeDrawer">Close navigation drawer</string>
+    <string name="homepage">Home</string>
+    <string name="back">back button</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="what_are_your_short_term_and_long_term_financial_goals">What are your short-term and long-term financial goals?</string>
+    <string name="describe_your_rich_life">Describe your rich life</string>
+    <string name="what_does_a_rich_life_mean_to_you">What does a rich life mean to you?</string>
+    <string name="short_term_goals">Short-term goals</string>
+
+
+        <string name="question_rich_life">What does a rich life mean to you?</string>
+        <string name="question_goals">What are your short-term and long-term financial goals?</string>
+        <string name="question_priorities">What are your top three priorities in life?</string>
+        <string name="question_ideal_lifestyle">How do you envision your ideal lifestyle in the next 5, 10, and 20 years?</string>
+
+        <!-- Hints -->
+        <string name="hint_rich_life">Describe your rich life</string>
+        <string name="hint_short_term_goals">Short-term goals</string>
+        <string name="hint_long_term_goals">Long-term goals</string>
+        <string name="hint_priority_1">Priority 1</string>
+        <string name="hint_priority_2">Priority 2</string>
+        <string name="hint_priority_3">Priority 3</string>
+        <string name="hint_5_years">In 5 years</string>
+        <string name="hint_10_years">In 10 years</string>
+        <string name="hint_20_years">In 20 years</string>
+
+        <!-- Buttons -->
+        <string name="button_save">Save</string>
+        <string name="button_edit">Edit</string>
+
+
+</resources>

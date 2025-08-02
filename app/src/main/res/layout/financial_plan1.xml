@@ -1,0 +1,173 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- What does a rich life mean to you? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_rich_life"
+            android:textSize="24sp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/text_primary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_rich_life"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <!-- What are your short-term and long-term financial goals? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_goals"
+            android:textSize="24sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/text_primary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_short_term_goals"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_long_term_goals"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <!-- What are your top three priorities in life? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_priorities"
+            android:textSize="24sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/text_primary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_priority_1"
+            android:inputType="text"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_priority_2"
+            android:inputType="text"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_priority_3"
+            android:inputType="text"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <!-- How do you envision your ideal lifestyle in the next 5, 10, and 20 years? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_ideal_lifestyle"
+            android:textSize="24sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/text_primary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_5_years"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_10_years"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/hint_20_years"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@color/text_secondary"/>
+
+        <!-- Save and Edit Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="24dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_save"
+                android:textColor="@color/button_text"
+                android:background="@color/button_background"
+                android:layout_marginEnd="16dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_edit"
+                android:textColor="@color/button_text"
+                android:background="@color/button_background"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

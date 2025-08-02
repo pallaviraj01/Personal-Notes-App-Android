@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:inputType="text"
+        android:textSize="18sp"
+        android:hint="@string/title"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <EditText
+        android:id="@+id/editContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:textSize="16sp"
+        android:hint="@string/content"
+        android:inputType="textMultiLine"
+        android:minLines="10"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:overScrollMode="always"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/noteDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/editicon"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/edit" />
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/delete" />
+
+        <ImageButton
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/save"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
